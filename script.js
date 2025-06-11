@@ -48,7 +48,6 @@ const data = {
     }
 };
 
-
 const voltageSelect = document.getElementById("voltageSelect");
 const amperageSelect = document.getElementById("amperageSelect");
 const tableBody = document.querySelector("#partsTable tbody");
