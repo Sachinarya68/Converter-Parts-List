@@ -3,38 +3,38 @@ const data = {
         "25A": [
             { description: "Thyristor modules", q2: "3", q4: "6", code: "DCA0008018P1", type: "SKKT27/16E *", notes: "" },
             { description: "Power interface board", q2: "1", q4: "1", code: "3ADT306100R1", type: "SDCS-PIN-11", notes: "DCF501,502, DCF 601, 602 (1)" },
-            { description: "Semiconductor fuses", q2: "3", q4: "1", code: "DC29838767P1", type: "170M1564", notes: "" },
-            { description: "Cooling fan", q2: "1", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
+            { description: "Semiconductor fuses", q2: "3", q4: "3", code: "DC29838767P1", type: "170M1564", notes: "" },
+            { description: "Cooling fan", q2: "2", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
         ],
         "50A": [
-            { description: "Thyristor modules", q2: "3", q4: "1", code: "DCA0011132P1", type: "SKKT42/16E *", notes: "" },
-            { description: "Power interface board", q2: "1", q4: "1", code: "3ADT306100R1", type: "SDCS-PIN-11", notes: "DCF501,502, DCF 601, 602 (1)" },
-            { description: "Semiconductor fuses", q2: "3", q4: "1", code: "DC29838719P1", type: "170M1566", notes: "" },
-            { description: "Cooling fan", q2: "1", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
+            { description: "Thyristor modules", q2: "3", q4: "4", code: "DCA0011132P1", type: "SKKT42/16E *", notes: "" },
+            { description: "Power interface board", q2: "2", q4: "1", code: "3ADT306100R1", type: "SDCS-PIN-11", notes: "DCF501,502, DCF 601, 602 (1)" },
+            { description: "Semiconductor fuses", q2: "1", q4: "1", code: "DC29838719P1", type: "170M1566", notes: "" },
+            { description: "Cooling fan", q2: "3", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
         ],
         "75A": [
-            { description: "Thyristor modules", q2: "3", q4: "1", code: "DCA0011703P1", type: "SKKT57/16E", notes: "" },
-            { description: "Power interface board", q2: "1", q4: "1", code: "3ADT306100R1", type: "SDCS-PIN-11", notes: "" },
-            { description: "Semiconductor fuses", q2: "3", q4: "1", code: "DCA0008843P1", type: "170M1567", notes: "" },
-            { description: "Cooling fan", q2: "1", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
+            { description: "Thyristor modules", q2: "2", q4: "4", code: "DCA0011914P1", type: "SKKT57/16E", notes: "" },
+            { description: "Power interface board", q2: "1", q4: "2", code: "3ADT306100R1", type: "SDCS-PIN-11", notes: "DCF501,502, DCF 601, 602 (1)" },
+            { description: "Semiconductor fuses", q2: "3", q4: "1", code: "DCA0012686P1", type: "170M1568", notes: "" },
+            { description: "Cooling fan", q2: "2", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
         ],
         "100A": [
-            { description: "Thyristor modules", q2: "3", q4: "1", code: "DCA0011392P1", type: "SKKT57/16E", notes: "" },
-            { description: "Power interface board", q2: "1", q4: "1", code: "3ADT306100R1", type: "SDCS-PIN-11", notes: "" },
-            { description: "Semiconductor fuses", q2: "3", q4: "1", code: "DCA0008843P1", type: "170M1567", notes: "" },
-            { description: "Cooling fan", q2: "1", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
+            { description: "Thyristor modules", q2: "1", q4: "1", code: "DCA0011931P1", type: "SKKT106/16E", notes: "" },
+            { description: "Power interface board", q2: "2", q4: "1", code: "3ADT306100R1", type: "SDCS-PIN-205B", notes: "Repl. SDCS PIN-21 and PIN205" },
+            { description: "Semiconductor fuses", q2: "3", q4: "2", code: "DCA0012694P1", type: "170M3815", notes: "" },
+            { description: "Cooling fan", q2: "1", q4: "1", code: "DCA0012678P1", type: "W2E143-AA09-252", notes: "" }
         ],
         "110A": [
-            { description: "Thyristor modules", q2: "3", q4: "1", code: "DCA0011392P1", type: "SKKT57/16E", notes: "" },
-            { description: "Power interface board", q2: "1", q4: "1", code: "3ADT306100R1", type: "SDCS-PIN-11", notes: "" },
-            { description: "Semiconductor fuses", q2: "3", q4: "1", code: "DCA0008843P1", type: "170M1567", notes: "" },
-            { description: "Cooling fan", q2: "1", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
+            { description: "Thyristor modules", q2: "2", q4: "1", code: "DCA0011922P1", type: "SKKT72/16E", notes: "" },
+            { description: "Power interface board", q2: "1", q4: "1", code: "3ADT312500R2", type: "SDCS-PIN-206B", notes: "Repl. SDCS PIN-23 and PIN206" },
+            { description: "Semiconductor fuses", q2: "3", q4: "4", code: "DCA0008843P1", type: "170M1567", notes: "" },
+            { description: "Cooling fan", q2: "4", q4: "1", code: "DCA0012678P1", type: "W2E143-AA09-252CN5822", notes: "" }
         ],
         "140A": [
-            { description: "Thyristor modules", q2: "3", q4: "1", code: "DCA0011393P1", type: "SKKT72/16E", notes: "" },
-            { description: "Power interface board", q2: "1", q4: "1", code: "3ADT306100R1", type: "SDCS-PIN-11", notes: "" },
-            { description: "Semiconductor fuses", q2: "3", q4: "1", code: "DCA0008844P1", type: "170M1568", notes: "" },
-            { description: "Cooling fan", q2: "1", q4: "1", code: "DCA0017670P1", type: "CN5822", notes: "" }
+            { description: "Thyristor modules", q2: "3", q4: "5", code: "DCA0011393P1", type: "SKKT106/16E", notes: "" },
+            { description: "Power interface board", q2: "1", q4: "1", code: "3ADT312500R1", type: "SDCS-PIN-205B", notes: "Repl. SDCS PIN-21 and PIN205" },
+            { description: "Semiconductor fuses", q2: "3", q4: "2", code: "DCA0012694P1", type: "170M3815", notes: "" },
+            { description: "Cooling fan", q2: "1", q4: "1", code: "DCA0012678P1", type: "W2E143-AA09-25", notes: "" }
         ]
     },
     "600V": {
