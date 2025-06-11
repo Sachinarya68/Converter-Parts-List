@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter Parts Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1><strong>CONVERTER PARTS LIST</strong></h1>
+
+    <div class="filters">
+        <label for="converterSelect">Voltage :</label>
+        <select id="voltageSelect"></select>
+        <label for="converterSelect">Ampere :</label>
+        <select id="amperageSelect"></select>
+    </div>
+
+    <table id="partsTable">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>2Q</th>
+                <th>4Q</th>
+                <th>Code</th>
+                <th>Type/Data</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div class="note">
+        <p><strong>Note:</strong> If used as a spare part for <strong>DCF</strong>, the resistors R113/R116/R119 must be
+            removed. For further information see "Technical Data".<br>* DCS500/DCS600 Thyristor Modules SKKT 27/16E are
+            not identical to SKKT 27 B/16E used for DCS400 Converter Modules.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
