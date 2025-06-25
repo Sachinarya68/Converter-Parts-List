@@ -72,22 +72,40 @@ function updateAmperageOptions() {
 function updateTable() {
     const voltage = voltageSelect.value;
     const amperage = amperageSelect.value;
-    if (!data[voltage]?.[amperage]) return;
+    const showQ2 = document.getElementById("q2Check").checked;
+    const showQ4 = document.getElementById("q4Check").checked;
+
+    if (!data[voltage]?.[amperage]) {
+        tableBody.innerHTML = '';
+        return;
+    }
 
     const parts = data[voltage][amperage];
     tableBody.innerHTML = parts.map(row => `
-    <tr>
-      <td>${row.description}</td>
-      <td>${row.q2}</td>
-      <td>${row.q4}</td>
-      <td>${row.code}</td>
-      <td>${row.type}</td>
-      <td>${row.notes}</td>
-    </tr>
-  `).join('');
+        <tr>
+            <td>${row.description}</td>
+            <td class="col-q2">${row.q2}</td>
+            <td class="col-q4">${row.q4}</td>
+            <td>${row.code}</td>
+            <td>${row.type}</td>
+            <td>${row.notes}</td>
+        </tr>
+    `).join('');
+
+    // Toggle visibility AFTER rows are rendered
+    document.querySelectorAll("th.col-q2, td.col-q2").forEach(cell =>
+        cell.classList.toggle("hide-col", !showQ2)
+    );
+    document.querySelectorAll("th.col-q4, td.col-q4").forEach(cell =>
+        cell.classList.toggle("hide-col", !showQ4)
+    );
 }
 
 // Initialize
 populateDropdown(voltageSelect, Object.keys(data));
 voltageSelect.addEventListener("change", updateAmperageOptions);
 amperageSelect.addEventListener("change", updateTable);
+
+document.getElementById("q2Check").addEventListener("change", updateTable);
+document.getElementById("q4Check").addEventListener("change", updateTable);
+

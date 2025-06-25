@@ -2,33 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Converter Parts Viewer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
     <h1><strong>CONVERTER PARTS LIST</strong></h1>
 
-    <div class="filters">
-        <label for="converterSelect">Voltage :</label>
-        <select id="voltageSelect"></select>
-        <label for="converterSelect">Ampere :</label>
-        <select id="amperageSelect"></select>
-        <div class="checkboxes">
-            <label><input type="checkbox" id="q2Check" checked> 2Q</label>
-            <label><input type="checkbox" id="q4Check" checked> 4Q</label>
-        </div>
-    </div>
+    <label for="converterSelect">Converter Type:</label>
+    <select id="converterSelect"></select>
+
+    <label for="qSelect">Q Type:</label>
+    <select id="qSelect">
+        <option value="2Q">2Q</option>
+        <option value="4Q">4Q</option>
+    </select>
 
     <table id="partsTable">
         <thead>
             <tr>
                 <th>Description</th>
-                <th class="col-q2">2Q</th>
-                <th class="col-q4">4Q</th>
+                <th>Quantity</th>
                 <th>Code</th>
                 <th>Type/Data</th>
                 <th>Notes</th>
@@ -36,7 +32,6 @@
         </thead>
         <tbody></tbody>
     </table>
-
 
     <div class="note">
         <p><strong>Note:</strong> If used as a spare part for <strong>DCF</strong>, the resistors R113/R116/R119 must be

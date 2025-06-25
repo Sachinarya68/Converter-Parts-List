@@ -20,12 +20,23 @@ h1 {
 
 }
 
-.dropdowns {
+.filters {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 20px;
     justify-content: center;
+}
+
+.hide-col {
+    display: none;
+}
+
+.checkboxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 label {
