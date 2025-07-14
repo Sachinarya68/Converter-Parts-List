@@ -8,20 +8,22 @@ This tool is designed to help technicians, engineers, and maintenance personnel 
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- **Dynamic Dropdowns**: Choose voltage (400–500V or 600V) and ampere rating (25A–140A) to view specific parts.
-- **Responsive Table**: Displays detailed part information in a neatly formatted table.
-- **Clear Part Breakdown**:
-  - Description
-  - Quantity for Q2 and Q4 units
-  - Converter Part Code
-  - Component Type
-  - Notes or special instructions (if any)
+👉 [**View the Live App**](#) *(https://converter-parts-list.vercel.app/)*  
+🖥️ Fully responsive for both desktop and mobile screens.
 
-- **Fully Responsive**: Works on both desktop and mobile devices.
-- **Zero Backend**: No server required; works entirely in the browser.
-- **Deployable on GitHub Pages or Vercel**.
+---
+
+## 🧩 Features
+
+- 🔌 **Voltage Selector** — Choose between supported voltage ranges like 400–500V, 600V, etc.
+- ⚡ **Amperage Filter** — Dynamically filter parts by current rating (e.g., 25A, 50A, 75A...)
+- ♻️ **2Q & 4Q Checkboxes** — Toggle to display relevant parts for two-quadrant and four-quadrant systems
+- 📋 **Dynamic Parts Table** — Displays matching converter components in real-time
+- 🧠 **Integrated Part Metadata** — Each row contains Description, Code, Type/Data, and Notes
+- 📱 **Responsive Design** — Works smoothly across all screen sizes (mobile, tablet, desktop)
+- ✅ Built with **pure HTML, CSS, and JavaScript** — no frameworks or libraries
 
 ---
 
@@ -34,3 +36,80 @@ This tool is designed to help technicians, engineers, and maintenance personnel 
 ---
 
 ## 📁 Project Structure
+📦 converter-parts-webapp
+┣ 📄 index.html
+┣ 📄 style.css
+┗ 📄 script.js
+
+---
+
+## 📚 Learning Outcomes
+🧠 DOM manipulation with dynamic table rendering
+
+🧩 Creating interdependent UI components (dropdowns + checkboxes)
+
+📱 Mobile-first responsive design
+
+🗃️ Efficiently structuring real-world industrial data
+
+---
+
+## 📌 Highlights
+Real-time table updates
+
+Clean and industrial-inspired UI
+
+Works offline (client-side only)
+
+References official ABB DCS500B/DCS600 specs
+
+---
+
+## 🚀 Future Enhancements
+Add support for downloading selected parts as PDF
+
+Integrate backend/database to manage larger inventories
+
+Add search and filter bar for part descriptions
+
+Theme switcher (Dark/Light mode)
+
+---
+
+## 🧑‍💼 Internship Contribution
+This project was developed as part of my internship and served as a valuable hands-on experience in:
+
+Industrial web app development
+
+UI/UX decision-making based on engineering use cases
+
+Clean, scalable code for non-tech users (plant operators, engineers)
+
+---
+
+## 🙌 Acknowledgements
+Special thanks to my internship supervisor and the ABB documentation team for providing detailed specs and guidance.
+
+---
+
+📇 Author
+Sachin Kumar Arya
+Intern • Web Developer • Problem Solver
+
+---
+
+📫 Connect with me on LinkedIn
+🧑‍💻 Portfolio: (https://www.linkedin.com/in/sachin-kumar-arya/)
+
+---
+
+⭐️ Show Your Support
+If you liked this project or found it useful, please consider:
+
+🌟 Starring the repo
+
+🍴 Forking it
+
+📣 Sharing with fellow developers
+
+Thanks for checking it out! ⚡
